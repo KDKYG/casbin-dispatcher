@@ -54,3 +54,4 @@ func Init() {
 
 	globalEnforcer.SetDispatcher(dispatcher)
 }
+

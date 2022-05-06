@@ -7,9 +7,6 @@ require (
 	github.com/casbin/hraft-dispatcher v0.0.13
 	github.com/gin-gonic/gin v1.7.7
 	gopkg.in/yaml.v2 v2.4.0
-)
-
-require (
 	github.com/Knetic/govaluate v3.0.1-0.20171022003610-9aa49832a739+incompatible // indirect
 	github.com/armon/go-metrics v0.0.0-20190430140413-ec5e00d3c878 // indirect
 	github.com/cenkalti/backoff/v4 v4.1.0 // indirect

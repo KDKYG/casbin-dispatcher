@@ -4,3 +4,4 @@ serverID: node-leader
 dataDir: ./tmp/follow-data
 listenAddress: 127.0.0.1:6791
 joinAddress: 127.0.0.1:6781
+

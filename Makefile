@@ -11,3 +11,4 @@ run-leader: build
 
 run-follower: build
 	./${APP} --config-file ./node-follower-conf.yml
+
