@@ -1,0 +1,7 @@
+serverPort: 127.0.0.1:6780
+
+serverID: node-leader
+dataDir: ./tmp/leader-data
+listenAddress: 127.0.0.1:6781
+joinAddress: ""
+
