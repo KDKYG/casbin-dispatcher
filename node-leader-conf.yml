@@ -1,8 +1,8 @@
-serverPort: 127.0.0.1:6780
+serverPort: 127.0.0.1:6760
 
 serverID: node-leader
 dataDir: ./tmp/leader-data
-listenAddress: 127.0.0.1:6781
+listenAddress: 127.0.0.1:6761
 joinAddress: ""
 
 

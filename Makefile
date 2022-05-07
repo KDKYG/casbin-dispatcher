@@ -9,6 +9,9 @@ build:
 run-leader: build
 	./${APP} --config-file ./node-leader-conf.yml
 
-run-follower: build
-	./${APP} --config-file ./node-follower-conf.yml
+run-follower1: build
+	./${APP} --config-file ./node-follower-conf1.yml
+
+run-follower2: build
+	./${APP} --config-file ./node-follower-conf2.yml
 
