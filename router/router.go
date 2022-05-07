@@ -19,7 +19,6 @@ func InitRouter() {
 	})
 	WatcherRouter.PUT("/policies", func(context *gin.Context) {
 		var data interface{}
-		context.ShouldBindJSON(&data)
 		err := context.ShouldBindJSON(&data)
 		if err != nil {
 			http.Error(context.Writer, err.Error(), http.StatusBadRequest)
@@ -34,7 +33,6 @@ func InitRouter() {
 	})
 	WatcherRouter.DELETE("/policies",func(context *gin.Context) {
 		var data interface{}
-		context.ShouldBindJSON(&data)
 		err := context.ShouldBindJSON(&data)
 		if err != nil {
 			http.Error(context.Writer, err.Error(), http.StatusBadRequest)

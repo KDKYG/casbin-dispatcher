@@ -3,5 +3,5 @@ serverPort: 127.0.0.1:6780
 serverID: node-follow1
 dataDir: ./tmp/follow1-data
 listenAddress: 127.0.0.1:6781
-joinAddress: 127.0.0.1:6761
+joinAddress: 127.0.0.1:6771
 
