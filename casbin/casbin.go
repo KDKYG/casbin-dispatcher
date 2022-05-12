@@ -2,9 +2,9 @@ package casbin
 
 import (
 	"github.com/KDKYG/casbin-dispatcher/config"
+	hraftdispatcher "github.com/KDKYG/casbin-dispatcher/hraft-dispatcher"
 	"github.com/casbin/casbin/v2"
 	"github.com/casbin/casbin/v2/model"
-	hraftdispatcher "github.com/casbin/hraft-dispatcher"
 	"log"
 )
 

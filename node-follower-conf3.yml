@@ -1,0 +1,6 @@
+serverPort: 127.0.0.1:6760
+
+serverID: node-follower3
+dataDir: ./tmp/follower3-data
+listenAddress: 127.0.0.1:6761
+joinAddress: 127.0.0.1:6771

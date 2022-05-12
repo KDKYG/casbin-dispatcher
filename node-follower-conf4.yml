@@ -1,0 +1,6 @@
+serverPort: 127.0.0.1:6750
+
+serverID: node-follower4
+dataDir: ./tmp/follower4-data
+listenAddress: 127.0.0.1:6751
+joinAddress: 127.0.0.1:6771cls
